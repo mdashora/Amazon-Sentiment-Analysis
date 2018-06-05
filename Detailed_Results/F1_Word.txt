@@ -1,0 +1,61 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T 0.005 -N -1
+Relation:     Data-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N0-L-S-stemmerweka.core.stemmers.LovinsStemmer-M1-O-tokenizerweka.core.tokenizers.NGramTokenizer -delimiters " \r\n\t.,;:\'\"()?!" -max 1 -min 1
+Instances:    20918
+Attributes:   1001
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+	Threshold for discarding attributes:   0.005 
+
+Attribute Evaluator (supervised, Class (nominal): 1 Polarity):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.021       406 great
+ 0.01974     958 wast
+ 0.01945     538 lov
+ 0.01636     984 worst
+ 0.01525     951 wa
+ 0.01383     668 poor
+ 0.01383     451 hor
+ 0.01305     580 mone
+ 0.01162      87 awesom
+ 0.01113     262 disappoint
+ 0.01018     886 ter
+ 0.00998     981 work
+ 0.0091      123 bor
+ 0.00909      91 bad
+ 0.00883      37 addict
+ 0.00853     338 fantas
+ 0.00829      55 amaz
+ 0.00826     727 rent
+ 0.00819     376 frustr
+ 0.0076      750 rpg
+ 0.00734     983 wors
+ 0.00732     737 return
+ 0.00699     756 sam
+ 0.0069      381 gam
+ 0.00665     928 unfortun
+ 0.00648     603 noth
+ 0.00603     687 produc
+ 0.00582     858 stupid
+ 0.00566     685 problem
+ 0.00563     911 tr
+ 0.00556     263 disappointm
+ 0.00553      61 anno
+ 0.00543     258 didnt
+ 0.0054      269 dog
+ 0.00532     642 perfect
+ 0.00514     865 support
+
+Selected attributes: 406,958,538,984,951,668,451,580,87,262,886,981,123,91,37,338,55,727,376,750,983,737,756,381,928,603,687,858,685,911,263,61,258,269,642,865 : 36
+

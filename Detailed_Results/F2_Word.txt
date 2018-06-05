@@ -1,0 +1,74 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T 0.005 -N -1
+Relation:     Data-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N0-L-S-stemmerweka.core.stemmers.LovinsStemmer-M1-O-tokenizerweka.core.tokenizers.NGramTokenizer -delimiters " \r\n\t.,;:\'\"()?!" -max 2 -min 1
+Instances:    20918
+Attributes:   1002
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+	Threshold for discarding attributes:   0.005 
+
+Attribute Evaluator (supervised, Class (nominal): 1 Polarity):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.03265     806 the best
+ 0.021       371 great
+ 0.01974     933 wast
+ 0.01945     543 lov
+ 0.01636     968 worst
+ 0.01525     925 wa
+ 0.01414     838 the worst
+ 0.01383     669 poor
+ 0.01383     405 hor
+ 0.01305     571 mone
+ 0.01256     132 best gam
+ 0.01162     109 awesom
+ 0.01114      24 a great
+ 0.01113     227 disappoint
+ 0.01105     999 your mone
+ 0.0103      372 great gam
+ 0.01018     793 ter
+ 0.00998     966 work
+ 0.00967     544 love th
+ 0.00963     295 final fantas
+ 0.0091      138 bor
+ 0.00909     112 bad
+ 0.00905     103 at al
+ 0.00883      41 addict
+ 0.00853     284 fantas
+ 0.00829      60 amaz
+ 0.00826     698 rent
+ 0.00819     317 frustr
+ 0.0076      705 rpg
+ 0.00732     701 return
+ 0.00699     707 sam
+ 0.00694     472 is great
+ 0.0069      323 gam
+ 0.00665     898 unfortun
+ 0.00664     983 you can
+ 0.00648     594 noth
+ 0.00644     433 i w
+ 0.00626     829 the sam
+ 0.00603     678 produc
+ 0.00587     230 do not
+ 0.00582     778 stupid
+ 0.00566     677 problem
+ 0.00563     888 tr
+ 0.00562     852 this 
+ 0.00553      84 anno
+ 0.00543     223 didnt
+ 0.0054      234 dog
+ 0.00532     648 perfect
+ 0.00514     784 support
+
+Selected attributes: 806,371,933,543,968,925,838,669,405,571,132,109,24,227,999,372,793,966,544,295,138,112,103,41,284,60,698,317,705,701,707,472,323,898,983,594,433,829,678,230,778,677,888,852,84,223,234,648,784 : 49
+
