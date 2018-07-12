@@ -1,7 +1,7 @@
-# Amazon-Sentiment-Analysis
+# Amazon-Reviews-Sentiment-Analysis
 The key problem is classifying opinions on E commerce websites as positive or negative opinions. I am focusing on classifying the reviews given to the Video Games on Amazon as ‘Like’ or ‘Don’t Like’ based on sentiment analysis algorithms.
 
-# This project uses python script for Data preparation and WEKA tool for data mining.
+This project uses python script for Data preparation and WEKA tool for data mining.
 https://www.cs.waikato.ac.nz/ml/weka
 
 # Data Source:
